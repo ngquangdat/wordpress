@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1836998e-2d8b-4a8c-9e84-a7159f2c1754" name="52.221.246.154" url="http://52.221.246.154">
+        <fileTransfer rootFolder="/opt/bitnami/wordpress" accessType="SFTP" host="52.221.246.154" port="22" sshConfigId="799d9516-9021-4570-a4df-ca1134d2528f" sshConfig="bitnami@52.221.246.154:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
